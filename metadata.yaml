@@ -1,5 +1,5 @@
 _repo: Short-Stories_12732
-_version: 0.0.1
+_version: 0.1.0
 contributor:
   contributors:
   - agent_name: Poe, Edgar Allan
@@ -11,7 +11,7 @@ contributor:
     wikipedia: http://en.wikipedia.org/wiki/Edgar_Allan_Poe
   - agent_name: Maupassant, Guy de
     alias: De Maupassant, Guy
-    birthdate: &id001 1850
+    birthdate: 1850
     deathdate: 1893
     gutenberg_agent_id: '306'
     url: http://www.gutenberg.org/2009/agents/306
@@ -29,7 +29,7 @@ contributor:
     wikipedia: http://en.wikipedia.org/wiki/Frank_R._Stockton
   - agent_name: Stevenson, Robert Louis
     alias: Stevenson, R. L. (Robert Louis)
-    birthdate: *id001
+    birthdate: 1850
     deathdate: 1894
     gutenberg_agent_id: '35'
     url: http://www.gutenberg.org/2009/agents/35
@@ -58,6 +58,9 @@ contributor:
     gutenberg_agent_id: '132'
     url: http://www.gutenberg.org/2009/agents/132
     wikipedia: http://en.wikipedia.org/wiki/Rudyard_Kipling
+covers:
+- cover_type: generated
+  image_path: cover.png
 creator:
   editor:
     agent_name: Pittenger, L. A. (Lemuel Arthur)
@@ -67,6 +70,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/34924
     wikipedia: http://en.wikipedia.org/wiki/L.A._Pittenger
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/12732#Short-Stories
 gutenberg_issued: '2004-06-01'
 gutenberg_type: Text
 identifiers:
